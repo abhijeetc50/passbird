@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/passbird/static/css/main.ab5021c7.css",
+    "main.js": "/passbird/static/js/main.2ea012bf.js",
+    "index.html": "/passbird/index.html",
+    "main.ab5021c7.css.map": "/passbird/static/css/main.ab5021c7.css.map",
+    "main.2ea012bf.js.map": "/passbird/static/js/main.2ea012bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab5021c7.css",
+    "static/js/main.2ea012bf.js"
+  ]
+}
