@@ -3,5 +3,5 @@ body{
 }
 
 .justify-content-md-center{
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
