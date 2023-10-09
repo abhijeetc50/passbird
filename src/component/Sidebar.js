@@ -23,9 +23,6 @@ const Sidebar = () => {
             <NavLink style={{ textColor :"#000" }}  exact to="/dashboard" activeClassName="activeClicked">
               <CDBSidebarMenuItem textColor="#000" icon="columns">Dashboard</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/tables" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="table">Table Data</CDBSidebarMenuItem>
-            </NavLink>
           </CDBSidebarMenu>
         </CDBSidebarContent>
       </CDBSidebar>
