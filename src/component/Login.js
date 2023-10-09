@@ -7,6 +7,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import PropTypes from 'prop-types';
+import { useNavigate } from "react-router-dom";
+import e from 'cors';
+
 
 async function loginUser(credentials) {
   return fetch('http://localhost:8080/login', {
@@ -24,14 +27,12 @@ function Login({ setToken }) {
   const [username, setUserName] = useState();
   const [password, setPassword] = useState();
 
-  const handleSubmit = async e => {
-    e.preventDefault();
-    const token = await loginUser({
-      username,
-      password
-    });
-    setToken(token);
-  }
+  const nav = useNavigate();
+  const handleSubmit = event => {
+    event.preventDefault();
+
+    nav('/dashboard');
+  };
 
   return (
     <Container>
@@ -60,10 +61,6 @@ function Login({ setToken }) {
       </Row>
     </Container>
   );
-}
-
-Login.propTypes = {
-  setToken: PropTypes.func.isRequired
 }
 
 export default Login;
