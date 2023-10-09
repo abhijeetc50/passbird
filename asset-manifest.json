@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/passbird/static/css/main.e5e24cdf.css",
-    "main.js": "/passbird/static/js/main.f83180e1.js",
+    "main.js": "/passbird/static/js/main.8840a8a6.js",
     "static/media/fa-solid-900.svg": "/passbird/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/passbird/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/fa-solid-900.eot": "/passbird/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
@@ -19,10 +19,10 @@
     "static/media/fa-regular-400.woff2": "/passbird/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/passbird/index.html",
     "main.e5e24cdf.css.map": "/passbird/static/css/main.e5e24cdf.css.map",
-    "main.f83180e1.js.map": "/passbird/static/js/main.f83180e1.js.map"
+    "main.8840a8a6.js.map": "/passbird/static/js/main.8840a8a6.js.map"
   },
   "entrypoints": [
     "static/css/main.e5e24cdf.css",
-    "static/js/main.f83180e1.js"
+    "static/js/main.8840a8a6.js"
   ]
 }
