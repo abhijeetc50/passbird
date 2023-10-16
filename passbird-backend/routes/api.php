@@ -17,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::any('/passbird/helloworld/{user_id}', [App\Http\Controllers\API\CommonController::class, 'getHelloWorld']);
+Route::any('/passbird/dashboard/count', [App\Http\Controllers\API\CommonController::class, 'getDashboardCount']);
+Route::any('/passbird/dashboard/data', [App\Http\Controllers\API\CommonController::class, 'getDashboardData']);
